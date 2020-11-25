@@ -1,0 +1,1 @@
+print("Algorithms and data structures")
