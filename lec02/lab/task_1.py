@@ -1,11 +1,12 @@
 #!/usr/bin/python3
-
-from pyrob.api import *
+from pyrob import *
+from pyrob.core import *
 
 
 @task
 def task_1_1():
-    pass
+    move_down(1)
+    move_right(2)
 
 
 if __name__ == '__main__':

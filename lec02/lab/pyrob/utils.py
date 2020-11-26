@@ -52,6 +52,7 @@ def allow_internal(flag, ctx=True):
     else:
         AllowInternalContext.allow_internal(flag)
 
+
 def internal(f):
 
     @functools.wraps(f)
