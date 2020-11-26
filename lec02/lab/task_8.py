@@ -5,7 +5,11 @@ from pyrob.api import *
 
 @task
 def task_5_7():
-    pass
+    while True:
+        if wall_is_beneath() or wall_is_above():
+            move_right()
+        else:
+            break
 
 
 if __name__ == '__main__':
