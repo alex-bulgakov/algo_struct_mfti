@@ -4,19 +4,6 @@ from pyrob.api import *
 
 finish = False
 
-def up():
-    while True:
-        if wall_is_above():
-            break
-        move_up()
-
-
-def down():
-    while True:
-        if wall_is_beneath():
-            break
-        move_down()
-
 
 def left():
     while True:
